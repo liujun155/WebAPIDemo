@@ -19,6 +19,8 @@ namespace IShareLogicTS
 
         bool UpdateUser(UserEnt user);
 
+        bool IsExist(UserEnt user);
+
         bool Login(string userName, string passWord);
     }
 }

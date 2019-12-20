@@ -64,6 +64,14 @@ namespace BusinessLogicTS
             return false;
         }
 
+        bool IUser.IsExist(UserEnt user)
+        {
+            user model = ibase.GetModel<user>(x => x.UserName == user.UserName && x.Id != user.Id);
+            if (model != null)
+                return true;
+            return false;
+        }
+
         bool IUser.Login(string userName, string passWord)
         {
             if (string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(passWord)) return false;

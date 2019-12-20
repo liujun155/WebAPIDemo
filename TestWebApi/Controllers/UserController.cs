@@ -38,6 +38,12 @@ namespace TestWebApi.Controllers
         }
 
         [HttpPost]
+        public bool IsExist(UserEnt user)
+        {
+            return FactoryTS.User.IsExist(user);
+        }
+
+        [HttpPost]
         public bool Login(string userName, string passWord)
         {
             return FactoryTS.User.Login(userName, passWord);
