@@ -79,28 +79,28 @@
       <publishTime>09/10/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/BLFactoryTS.dll">
-      <publishTime>12/16/2019 11:39:04</publishTime>
+      <publishTime>12/27/2019 17:09:10</publishTime>
     </File>
     <File Include="bin/BLFactoryTS.pdb">
-      <publishTime>12/16/2019 11:39:04</publishTime>
+      <publishTime>12/27/2019 17:09:10</publishTime>
     </File>
     <File Include="bin/BouncyCastle.Crypto.dll">
       <publishTime>08/11/2018 10:03:48</publishTime>
     </File>
     <File Include="bin/BusinessLogicTS.dll">
-      <publishTime>12/16/2019 11:39:04</publishTime>
+      <publishTime>12/27/2019 17:09:10</publishTime>
     </File>
     <File Include="bin/BusinessLogicTS.pdb">
-      <publishTime>12/16/2019 11:39:04</publishTime>
+      <publishTime>12/27/2019 17:09:10</publishTime>
     </File>
     <File Include="bin/CommonLibrary.dll">
       <publishTime>09/03/2019 09:24:07</publishTime>
     </File>
     <File Include="bin/DataFactoryTS.dll">
-      <publishTime>12/16/2019 11:24:20</publishTime>
+      <publishTime>12/27/2019 16:58:24</publishTime>
     </File>
     <File Include="bin/DataFactoryTS.pdb">
-      <publishTime>12/16/2019 11:24:20</publishTime>
+      <publishTime>12/27/2019 16:58:24</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>10/23/2017 13:15:18</publishTime>
@@ -109,10 +109,10 @@
       <publishTime>10/23/2017 13:15:20</publishTime>
     </File>
     <File Include="bin/EntitysTS.dll">
-      <publishTime>12/16/2019 11:24:20</publishTime>
+      <publishTime>12/27/2019 16:58:23</publishTime>
     </File>
     <File Include="bin/EntitysTS.pdb">
-      <publishTime>12/16/2019 11:24:20</publishTime>
+      <publishTime>12/27/2019 16:58:23</publishTime>
     </File>
     <File Include="bin/Google.Protobuf.dll">
       <publishTime>08/10/2018 18:51:54</publishTime>
@@ -121,25 +121,25 @@
       <publishTime>09/03/2019 09:24:07</publishTime>
     </File>
     <File Include="bin/IManageTS.dll">
-      <publishTime>12/16/2019 11:24:20</publishTime>
+      <publishTime>12/27/2019 16:58:23</publishTime>
     </File>
     <File Include="bin/IManageTS.pdb">
-      <publishTime>12/16/2019 11:24:20</publishTime>
+      <publishTime>12/27/2019 16:58:23</publishTime>
     </File>
     <File Include="bin/IShareLogicTS.dll">
-      <publishTime>12/16/2019 11:39:03</publishTime>
+      <publishTime>12/27/2019 17:09:09</publishTime>
     </File>
     <File Include="bin/IShareLogicTS.pdb">
-      <publishTime>12/16/2019 11:39:03</publishTime>
+      <publishTime>12/27/2019 17:09:09</publishTime>
     </File>
     <File Include="bin/ManagerTS.dll">
-      <publishTime>12/16/2019 11:24:22</publishTime>
+      <publishTime>12/27/2019 16:58:24</publishTime>
     </File>
     <File Include="bin/ManagerTS.dll.config">
       <publishTime>12/04/2019 14:18:26</publishTime>
     </File>
     <File Include="bin/ManagerTS.pdb">
-      <publishTime>12/16/2019 11:24:22</publishTime>
+      <publishTime>12/27/2019 16:58:24</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
       <publishTime>04/03/2015 17:07:22</publishTime>
@@ -151,10 +151,10 @@
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/ModelsTS.dll">
-      <publishTime>12/16/2019 11:24:20</publishTime>
+      <publishTime>12/27/2019 16:58:23</publishTime>
     </File>
     <File Include="bin/ModelsTS.pdb">
-      <publishTime>12/16/2019 11:24:20</publishTime>
+      <publishTime>12/27/2019 16:58:23</publishTime>
     </File>
     <File Include="bin/MySql.Data.dll">
       <publishTime>04/26/2018 23:48:14</publishTime>
@@ -286,10 +286,10 @@
       <publishTime>11/28/2018 13:04:24</publishTime>
     </File>
     <File Include="bin/TestWebApi.dll">
-      <publishTime>12/16/2019 11:39:04</publishTime>
+      <publishTime>12/27/2019 17:09:10</publishTime>
     </File>
     <File Include="bin/TestWebApi.pdb">
-      <publishTime>12/16/2019 11:39:04</publishTime>
+      <publishTime>12/27/2019 17:09:10</publishTime>
     </File>
     <File Include="bin/WebActivatorEx.dll">
       <publishTime>02/08/2013 16:42:28</publishTime>

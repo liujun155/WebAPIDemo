@@ -32,6 +32,12 @@ namespace TestWebApi.Controllers
         }
 
         [HttpPost]
+        public List<UserEnt> GetUsers(string name)
+        {
+            return FactoryTS.User.GetUsers(name);
+        }
+
+        [HttpPost]
         public UserEnt GetUserById(int id)
         {
             return FactoryTS.User.GetUserById(id);
@@ -53,6 +59,12 @@ namespace TestWebApi.Controllers
         public bool UpdateUser(UserEnt user)
         {
             return FactoryTS.User.UpdateUser(user);
+        }
+
+        [HttpPost]
+        public bool ChangePassWord(string userName, string oldPassWord, string newPassWord)
+        {
+            return FactoryTS.User.ChangePassWord(userName, oldPassWord, newPassWord);
         }
     }
 }

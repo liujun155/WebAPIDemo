@@ -10,6 +10,7 @@ namespace TestWebApi
     {
         public static void Register(HttpConfiguration config)
         {
+            // 配置跨域请求
             config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
             // Web API 配置和服务
 

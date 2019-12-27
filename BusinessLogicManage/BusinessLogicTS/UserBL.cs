@@ -27,6 +27,28 @@ namespace BusinessLogicTS
             return null;
         }
 
+        List<UserEnt> IUser.GetUsers(string name)
+        {
+            List<user> allUsers = ibase.GetModelList<user>(x => true);
+            if(allUsers?.Count > 0)
+            {
+                List<UserEnt> ents = new List<UserEnt>();
+                if (!string.IsNullOrEmpty(name))
+                {
+                    List<user> users = allUsers.FindAll(x => x.Name.Contains(name));
+                    if (users == null || users.Count == 0) return null;
+                    users.ForEach(m => ents.Add(ConvertModelToEnt(m)));
+                    return ents;
+                }
+                else
+                {
+                    allUsers.ForEach(m => ents.Add(ConvertModelToEnt(m)));
+                    return ents;
+                }
+            }
+            return null;
+        }
+
         UserEnt IUser.GetUserById(int id)
         {
             user user = ibase.GetModel<user>(x => x.Id == id);
@@ -84,6 +106,20 @@ namespace BusinessLogicTS
                     return true;
                 else
                     return false;
+            }
+            return false;
+        }
+
+        bool IUser.ChangePassWord(string userName, string oldPassWord, string newPassWord)
+        {
+            user ur = ibase.GetModel<user>(x => x.UserName == userName);
+            if(ur != null && !string.IsNullOrEmpty(oldPassWord) && !string.IsNullOrEmpty(newPassWord))
+            {
+                if(ur.PassWord == oldPassWord)
+                {
+                    ur.PassWord = newPassWord;
+                    return ibase.Update<user>(ur);
+                }
             }
             return false;
         }
